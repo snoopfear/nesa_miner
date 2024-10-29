@@ -3,6 +3,8 @@
 # Обновление и установка jq
 sudo apt update && sudo apt upgrade -y
 sudo apt install jq -y
+sudo apt update && sudo apt install -y python3 python3-pip
+sudo pip3 install ecdsa
 
 # Установка Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
